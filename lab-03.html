@@ -407,12 +407,14 @@ is when each unique observation has its own row.</p>
 <h2>Exercise 2</h2>
 <pre class="r"><code>## Uncomment and complete the following code
 
-#staff_long &lt;- ___ %&gt;%
-#  ___(
-#    cols = ____, 
-#    names_to = &quot;_____&quot;,
-#    values_to = &quot;percent&quot;
-#    )</code></pre>
+staff_long &lt;- staff %&gt;%
+  pivot_longer(
+    cols = c(&#39;1975&#39;:&#39;2011&#39;),
+    names_to = &quot;year&quot;,
+    values_to = &quot;percent&quot;
+    )</code></pre>
+<p>staff_long has 55 rows. This corresponds to our answer to exercise
+1.</p>
 </div>
 <div id="exercise-3" class="section level2">
 <h2>Exercise 3</h2>

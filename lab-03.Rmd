@@ -85,15 +85,15 @@ There are 55 observations in the data set.
 ```{r pivoting}
 ## Uncomment and complete the following code
 
-#staff_long <- ___ %>%
-#  ___(
-#    cols = ____, 
-#    names_to = "_____",
-#    values_to = "percent"
-#    )
+staff_long <- staff %>%
+  pivot_longer(
+    cols = c('1975':'2011'),
+    names_to = "year",
+    values_to = "percent"
+    )
 
 ```
-
+staff_long has 55 rows. This corresponds to our answer to exercise 1.
 
 ## Exercise 3
 
