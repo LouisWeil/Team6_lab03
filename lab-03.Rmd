@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Take a sad plot and make it better"
-author: "Louis Newton, Athos Rocha, User3, User4, User5 and User6 - IDS Team 6"
+author: "Louis Newton, Athos Rocha, Ethan Wood, Lucas Smith, Jake Cullen and Aniruddh Iyer - IDS Team 6"
 date: "`r Sys.Date()`"
 output: html_document
 ---
